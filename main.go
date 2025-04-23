@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"TeamCRUD/server"
+)
 
 func main() {
-	fmt.Println("Gleb IBLAN")
+	server.CreateServer()
 }
